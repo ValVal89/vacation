@@ -28,6 +28,6 @@ public class User
     private int age;
 
     @OneToMany(mappedBy = "user")
-    private Set<Settings> settings = new HashSet<>();
+    private HashSet<Settings> settings = new HashSet<>();
 
 }
