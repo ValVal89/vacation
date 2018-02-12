@@ -27,7 +27,7 @@ public class SettingsController {
     @PostMapping
     public ResponseEntity<Settings> addSettings(@RequestBody Settings settings){
         System.out.println(settings);
-        User user = userRepository.findByFirstName("Andrey");
+        User user = userRepository.findByFirstName("Valentina");
         user.getSettings().add(settings);
         userRepository.save(user);
         System.out.println(settings);
