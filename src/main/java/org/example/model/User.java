@@ -29,7 +29,7 @@ public class User
 
     private String password;
 
-    @OneToOne(mappedBy = "user")
-    private Dashboard dashboard;
+   @OneToOne(mappedBy = "user")
+    private String dashboard;
 
 }
