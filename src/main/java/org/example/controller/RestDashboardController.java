@@ -25,8 +25,8 @@ public class RestDashboardController {
     @PostMapping
     public ResponseEntity<Dashboard> addDashboard(@RequestBody Dashboard dashboard){
         //System.out.println(dashboard);
-        User user = userRepository.findByFirstName("Marta");
-        //System.out.println(user);
+        User user = userRepository.findOne("elinext");
+        System.out.println(user);
         Dashboard newD = new Dashboard(dashboard.getId(), dashboard.getDescription());
         user.setDashboard(newD);
        // user.getDashboard().setDescription(dashboard.getDescription());
