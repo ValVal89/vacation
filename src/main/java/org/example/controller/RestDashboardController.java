@@ -24,15 +24,15 @@ public class RestDashboardController {
 
     @PostMapping
     public ResponseEntity<Dashboard> addDashboard(@RequestBody Dashboard dashboard){
-        System.out.println(dashboard);
-        User user = userRepository.findByFirstName("Valentina");
-        System.out.println(user);
+        //System.out.println(dashboard);
+        User user = userRepository.findByFirstName("Marta");
+        //System.out.println(user);
         Dashboard newD = new Dashboard(dashboard.getId(), dashboard.getDescription());
         user.setDashboard(newD);
        // user.getDashboard().setDescription(dashboard.getDescription());
         userRepository.save(user);
-        System.out.println(dashboard);
-        System.out.println(user);
+       // System.out.println(dashboard);
+       //System.out.println(user);
         return new ResponseEntity<Dashboard>(dashboard, HttpStatus.OK);
     }
 }

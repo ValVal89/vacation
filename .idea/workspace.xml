@@ -3,18 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="021b93f5-b4f9-47c6-a375-9e8de7060aad" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Application.java" afterPath="$PROJECT_DIR$/src/main/java/org/example/Application.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controller/SettingsController.java" afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/RestDashboardController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/Settings.java" afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Dashboard.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/User.java" afterPath="$PROJECT_DIR$/src/main/java/org/example/model/User.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/repository/SettingsRepository.java" afterPath="$PROJECT_DIR$/src/main/java/org/example/repository/DashboardRepository.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/SettingsService.java" afterPath="$PROJECT_DIR$/src/main/java/org/example/service/DashboardService.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Application.class" afterPath="$PROJECT_DIR$/target/classes/org/example/Application.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/controller/SettingsController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/model/Settings.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/model/User.class" afterPath="$PROJECT_DIR$/target/classes/org/example/model/User.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/repository/SettingsRepository.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/service/SettingsService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controller/RestDashboardController.java" afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/RestDashboardController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controller/RestUserController.java" afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/RestUserController.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,8 +19,8 @@
       <file leaf-file-name="DashboardService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/example/service/DashboardService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="13" column="20" lean-forward="false" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+            <state relative-caret-position="153">
+              <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="24" />
               <folding>
                 <element signature="e#380#381#0" expanded="true" />
                 <element signature="e#450#451#0" expanded="true" />
@@ -42,7 +32,7 @@
       <file leaf-file-name="DashboardRepository.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/example/repository/DashboardRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
+            <state relative-caret-position="136">
               <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -66,19 +56,39 @@
       <file leaf-file-name="RestDashboardController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/example/controller/RestDashboardController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="27" column="28" lean-forward="false" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="28" />
+            <state relative-caret-position="408">
+              <caret line="34" column="34" lean-forward="true" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/example/repository/UserRepository.java">
+      <file leaf-file-name="localhost/testdb/users" pinned="false" current-in-tab="false">
+        <entry file="mongo://localhost/testdb/users">
+          <provider selected="true" editor-type-id="MongoData">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            <state relative-caret-position="17">
+              <caret line="1" column="12" lean-forward="false" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="16" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RestUserController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/example/controller/RestUserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="25" column="41" lean-forward="false" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
+              <folding>
+                <element signature="e#727#728#0" expanded="true" />
+                <element signature="e#776#777#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -125,7 +135,6 @@
         <option value="$PROJECT_DIR$/src/main/java/org/example/repository/SettingsRepository.java" />
         <option value="$PROJECT_DIR$/src/main/tests/org/example/service/SettingsServiceTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/example/Application.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/example/controller/RestUserController.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/example/model/Settings.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/example/controller/SettingsController.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/example/model/User.java" />
@@ -133,6 +142,7 @@
         <option value="$PROJECT_DIR$/src/main/java/org/example/service/DashboardService.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/example/model/Dashboard.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/example/controller/RestDashboardController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/example/controller/RestUserController.java" />
       </list>
     </option>
   </component>
@@ -354,6 +364,11 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="spring-mongodb-data-rest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vacation" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -543,8 +558,16 @@
       <workItem from="1518428984906" duration="2317000" />
       <workItem from="1518431359101" duration="61000" />
       <workItem from="1518431453939" duration="3647000" />
-      <workItem from="1518511995377" duration="703000" />
+      <workItem from="1518511995377" duration="5626000" />
     </task>
+    <task id="LOCAL-00001" summary="dashboard">
+      <created>1518512718196</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1518512718196</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -559,7 +582,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15151000" />
+    <option name="totallyTimeSpent" value="20074000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
@@ -604,6 +627,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="dashboard" />
+    <option name="LAST_COMMIT_MESSAGE" value="dashboard" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -646,8 +673,8 @@
           <caret line="14" column="11" lean-forward="false" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#362#363#0" expanded="true" />
-            <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="false" />
+            <element signature="e#426#427#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -734,8 +761,8 @@
           <caret line="14" column="11" lean-forward="false" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#362#363#0" expanded="true" />
-            <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="false" />
+            <element signature="e#426#427#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -919,14 +946,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="12" lean-forward="false" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/example/service/SettingsServiceTest.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -956,22 +975,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/example/controller/RestUserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/example/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#362#363#0" expanded="true" />
-            <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="false" />
+            <element signature="e#426#427#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -981,27 +992,6 @@
         <state relative-caret-position="68">
           <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/example/service/DashboardService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="13" column="20" lean-forward="false" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-          <folding>
-            <element signature="e#380#381#0" expanded="true" />
-            <element signature="e#450#451#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/example/repository/DashboardRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1015,10 +1005,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/example/controller/RestUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="25" column="41" lean-forward="false" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
+          <folding>
+            <element signature="e#727#728#0" expanded="true" />
+            <element signature="e#776#777#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="12" lean-forward="false" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/example/repository/DashboardRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/example/service/DashboardService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="24" />
+          <folding>
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/example/controller/RestDashboardController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="27" column="28" lean-forward="false" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="28" />
+        <state relative-caret-position="408">
+          <caret line="34" column="34" lean-forward="true" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
           <folding />
         </state>
       </provider>

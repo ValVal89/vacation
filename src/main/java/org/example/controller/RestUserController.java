@@ -21,6 +21,11 @@ public class RestUserController {
         return new ResponseEntity<List<User>>(userRepository.findAll(), HttpStatus.OK);
     }
 
+    @GetMapping(value = "/{id}")
+    public User getUser(@PathVariable("id") String id){
+        return userRepository.findOne(id);
+    }
+
     @PostMapping
     public ResponseEntity<User> addNewEmployee(@RequestBody User employee){
         userRepository.save(employee);
