@@ -32,4 +32,20 @@ public class Dashboard {
         this.id = id;
         this.description = description;
     }
+
+    /*@Override
+    public String toString() {
+        return "{" +
+                "id=" + id + '\'' +
+                ", description=" + description + '\'' +
+                '}';
+    }*/
+
+    @Override
+    public String toString() {
+        return "{" +
+                "id:" + id +
+                ", description:" + description +
+                '}';
+    }
 }
