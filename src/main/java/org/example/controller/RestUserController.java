@@ -25,12 +25,23 @@ public class RestUserController {
 
     @GetMapping(value = "/{id}")
     public User getUser(@PathVariable("id") String id){
-        return userRepository.findOne(id);
+        User user = userRepository.findOne(id);
+        System.out.println("USER" + user);
+        return user;
     }
+
+   /* @GetMapping(value = "/{id}/dashboard")
+    public String getDashboardDescription(@PathVariable("id") String id){
+        String string = userRepository.findOne(id).getDashboard().getDescription();
+        System.out.println("description " + string);
+        return string;
+    }*/
 
     @GetMapping(value = "/{id}/dashboard")
     public String getDashboard(@PathVariable("id") String id){
-        return userRepository.findOne(id).getDashboard().getDescription();
+        String string = userRepository.findOne(id).getDashboard();
+        System.out.println("description " + string);
+        return string;
     }
 
     @PostMapping
