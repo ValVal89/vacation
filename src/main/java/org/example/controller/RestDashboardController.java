@@ -9,7 +9,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-@CrossOrigin(origins = "http://172.16.1.183:4211")
+@CrossOrigin(origins = "http://localhost:4211")
 @RestController
 @RequestMapping(value = "/dashboard")
 public class RestDashboardController {

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="021b93f5-b4f9-47c6-a375-9e8de7060aad" name="Default" comment="add getDashboard description by">
+    <list default="true" id="021b93f5-b4f9-47c6-a375-9e8de7060aad" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controller/RestDashboardController.java" afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/RestDashboardController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controller/RestUserController.java" afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/RestUserController.java" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/controller/RestUserController.class" afterPath="$PROJECT_DIR$/target/classes/org/example/controller/RestUserController.class" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,17 +20,17 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/org/example/controller/RestDashboardController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="50" />
+              <caret line="11" column="47" lean-forward="false" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RestUserController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RestUserController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/example/controller/RestUserController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="12" column="40" lean-forward="false" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="47" />
               <folding>
                 <element signature="e#811#812#0" expanded="true" />
                 <element signature="e#860#861#0" expanded="true" />
@@ -49,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dashboard.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Dashboard.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/example/model/Dashboard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="28" column="22" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="22" />
+            <state relative-caret-position="459">
+              <caret line="27" column="15" lean-forward="true" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -109,8 +109,8 @@
         <option value="$PROJECT_DIR$/src/main/java/org/example/repository/DashboardRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/example/service/DashboardService.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/example/model/Dashboard.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/example/controller/RestDashboardController.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/example/controller/RestUserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/example/controller/RestDashboardController.java" />
       </list>
     </option>
   </component>
@@ -526,7 +526,7 @@
       <workItem from="1518428984906" duration="2317000" />
       <workItem from="1518431359101" duration="61000" />
       <workItem from="1518431453939" duration="3647000" />
-      <workItem from="1518511995377" duration="8534000" />
+      <workItem from="1518511995377" duration="9946000" />
     </task>
     <task id="LOCAL-00001" summary="dashboard">
       <created>1518512718196</created>
@@ -549,7 +549,14 @@
       <option name="project" value="LOCAL" />
       <updated>1518519305901</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add getDashboard description by userId">
+      <created>1518521234815</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1518521234815</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -564,7 +571,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22982000" />
+    <option name="totallyTimeSpent" value="24394000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
@@ -572,7 +579,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.100323625" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.100323625" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -612,7 +619,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="dashboard" />
     <MESSAGE value="add return user by id" />
-    <option name="LAST_COMMIT_MESSAGE" value="add return user by id" />
+    <MESSAGE value="add getDashboard description by userId" />
+    <option name="LAST_COMMIT_MESSAGE" value="add getDashboard description by userId" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -999,16 +1007,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/example/model/Dashboard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="28" column="22" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/example/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -1017,21 +1015,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/example/controller/RestUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="47" />
+          <folding>
+            <element signature="e#811#812#0" expanded="true" />
+            <element signature="e#860#861#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/example/controller/RestDashboardController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="50" />
+          <caret line="11" column="47" lean-forward="false" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/example/controller/RestUserController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/example/model/Dashboard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="12" column="40" lean-forward="false" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+        <state relative-caret-position="459">
+          <caret line="27" column="15" lean-forward="true" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="15" />
           <folding>
-            <element signature="e#811#812#0" expanded="true" />
-            <element signature="e#860#861#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
