@@ -11,22 +11,25 @@ import org.springframework.data.mongodb.core.mapping.Document;
 import javax.persistence.CascadeType;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
+import javax.persistence.OneToOne;
 
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 @Document
 @ToString(exclude = "user")
-public class Settings {
+public class Dashboard {
     @Id
-    private Long id;
-    private Integer colNumber;
-    private Integer rowNumber;
-    private Integer positionX;
-    private Integer positionY;
+    private String id;
+    private String description;
 
-    @ManyToOne(cascade = CascadeType.PERSIST)
+    @OneToOne(cascade = CascadeType.PERSIST)
     @JoinColumn(name = "USER_ID")
     @JsonIgnore
     private User user;
+
+    public Dashboard(String id, String description) {
+        this.id = id;
+        this.description = description;
+    }
 }

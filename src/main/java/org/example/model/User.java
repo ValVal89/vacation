@@ -8,8 +8,8 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 import javax.persistence.Column;
 import javax.persistence.OneToMany;
+import javax.persistence.OneToOne;
 import java.util.HashSet;
-import java.util.Set;
 
 @Document(collection = "users")
 @Data
@@ -19,15 +19,17 @@ public class User
 {
     @Id
     @Column(name = "USER_ID")
-    private Long id;
+    private String id;
 
     private String firstName;
 
     private String lastName;
 
-    private int age;
+    private String email;
 
-    @OneToMany(mappedBy = "user")
-    private HashSet<Settings> settings = new HashSet<>();
+    private String password;
+
+    @OneToOne(mappedBy = "user")
+    private Dashboard dashboard;
 
 }
