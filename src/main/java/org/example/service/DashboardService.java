@@ -4,9 +4,9 @@ import org.example.model.Dashboard;
 import org.example.model.User;
 import org.example.repository.DashboardRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
-import java.util.Set;
-
+@Service
 public class DashboardService {
     @Autowired
     private DashboardRepository dashboardRepository;
