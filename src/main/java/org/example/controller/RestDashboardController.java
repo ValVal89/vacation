@@ -20,14 +20,14 @@ public class RestDashboardController {
     @Autowired
     private UserRepository userRepository;
 
-    @PostMapping
-    public ResponseEntity<Dashboard> addDashboard(@RequestBody Dashboard dashboard){
+    @PostMapping(value = "/{id}")
+    public ResponseEntity<Dashboard> addDashboard(@RequestBody Dashboard dashboard, @PathVariable("id") String id){
         //System.out.println(dashboard);
         //User user = userRepository.findOne(dashboard.getUser().getId());
-        User user = userRepository.findOne("elinext");
+        User user = userRepository.findOne(id);
         System.out.println(user);
         Dashboard newD = new Dashboard(dashboard.getId(), dashboard.getDescription());
-        user.setDashboard(newD);
+        user.setDashboard(newD.toString());
        // user.getDashboard().setDescription(dashboard.getDescription());
         userRepository.save(user);
        // System.out.println(dashboard);
