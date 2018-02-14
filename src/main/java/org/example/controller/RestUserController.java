@@ -1,5 +1,6 @@
 package org.example.controller;
 
+import org.example.DefaultDashboardSettings;
 import org.example.model.Dashboard;
 import org.example.model.User;
 import org.example.repository.UserRepository;
@@ -23,6 +24,11 @@ public class RestUserController {
         return new ResponseEntity<List<User>>(userRepository.findAll(), HttpStatus.OK);
     }
 
+    @DeleteMapping(value = "/{id}")
+    public void  deleteUser(@PathVariable("id") String id){
+         userRepository.delete(id);
+    }
+
     @GetMapping(value = "/{id}")
     public User getUser(@PathVariable("id") String id){
         User user = userRepository.findOne(id);
@@ -38,15 +44,36 @@ public class RestUserController {
     }*/
 
     @GetMapping(value = "/{id}/dashboard")
-    public String getDashboard(@PathVariable("id") String id){
+    public String getDashboardByUserId(@PathVariable("id") String id){
+
         String string = userRepository.findOne(id).getDashboard();
         System.out.println("description " + string);
         return string;
-    }
+        }
 
     @PostMapping
-    public ResponseEntity<User> addNewEmployee(@RequestBody User employee){
-        userRepository.save(employee);
-        return new ResponseEntity<User>(employee, HttpStatus.OK);
+    public ResponseEntity<User> addUser(@RequestBody User user){
+        String dashboard = user.getDashboard();
+        if (dashboard==null)
+        {
+           String newDashboard = new DefaultDashboardSettings().getDEFAULT_DASHBOARD();
+            System.out.println(newDashboard.substring(newDashboard.indexOf('i'), newDashboard.indexOf(',')));
+            user.setDashboard(newDashboard);
+        }
+        userRepository.save(user);
+        return new ResponseEntity<User>(user, HttpStatus.OK);
+    }
+
+    @PutMapping(value = "/{id}")
+    public ResponseEntity<User> updateUser(@RequestBody User user, @PathVariable("id") String id){
+        String dashboard = user.getDashboard();
+        if (dashboard==null)
+        {
+            String newDashboard = new DefaultDashboardSettings().getDEFAULT_DASHBOARD();
+            System.out.println(newDashboard.substring(newDashboard.indexOf('i'), newDashboard.indexOf(',')));
+            user.setDashboard(newDashboard);
+        }
+        userRepository.save(user);
+        return new ResponseEntity<User>(user, HttpStatus.OK);
     }
 }
